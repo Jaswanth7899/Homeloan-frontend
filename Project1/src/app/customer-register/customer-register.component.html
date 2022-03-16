@@ -1,0 +1,23 @@
+<p>customer-register works!</p>
+<form (ngSubmit)="processRegistration()">
+   <div>
+    <label>Enetr name</label>
+    <input type="text" name="t1" [(ngModel)]="customer.name"/>
+    </div>
+
+    <div>
+        <label>Enetr email</label>
+        <input type="email" name="t2" [(ngModel)]="customer.email"/>
+    </div> 
+     <div>
+         <label>Enetr name</label>
+        <input type="password" name="t3" [(ngModel)]="customer.password"/>
+         </div> 
+         <div>
+           <label>Enetr name</label>
+           <input type="date" name="t4" [(ngModel)]="customer.dateOfBirth"/>
+         </div>
+         <div>
+             <button type="submit" name="t4" [(ngModel)]="ciustomer.submit"></button>
+         </div>
+</form>
